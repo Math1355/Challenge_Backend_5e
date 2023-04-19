@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\TI\Python\Projetos\Challenge_Backend_5e\venv"
+VIRTUAL_ENV="D:\TI\Python - Exercicio\Projetos\Challenge_Backend_5e\video\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
