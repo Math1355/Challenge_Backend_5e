@@ -17,7 +17,7 @@ class VideoSerializer(serializers.ModelSerializer):
 
 class VideoSerializerV1(serializers.ModelSerializer):
     class Meta:
-        model = Categoria
+        model = Video
         fields = '__all__'
     def validate(self, data):
         if not titulo_valido(data['titulo']):
